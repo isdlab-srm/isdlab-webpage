@@ -2,13 +2,11 @@ import Image from 'next/image';
 import CountUp from '@/components/CountUp'
 import Squares from '@/components/Squares';
 import AutoScrollCards from '@/components/AutoScrollCards';
-import RegistrationPopup from '@/components/RegistrationPopup';
 
 
 export default function Home() {
   return (
     <>
-      <RegistrationPopup />
       <div
         className="bg-black text-white font-sans"
         style={{

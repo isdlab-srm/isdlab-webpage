@@ -1,4 +1,3 @@
-// components/Footer.jsx
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -8,12 +7,9 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-t from-[#18164f] to-black text-white pt-12 pb-4">
       <div className="container mx-auto px-4">
-        {/* Main footer content */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* Logo section */}
           <div className="col-span-1 md:col-span-1">
             <div className="flex flex-col space-y-6">
-              {/* ISD Lab Logo */}
               <div className="mb-4">
                 <Image
                   src="/logo.svg"
@@ -34,8 +30,6 @@ export default function Footer() {
                 />
               </div>
 
-
-              {/* SRM Logo */}
               <div>
                 <Image
                   src="/srmlogowhite.png"
@@ -48,7 +42,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Quick Links</h3>
             <ul className="space-y-2">
@@ -64,21 +57,19 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Research Areas */}
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Research Areas</h3>
             <ul className="space-y-1">
               <li>Artificial Intelligence</li>
               <li>Machine Learning</li>
               <li>Computer Vision</li>
-              <li>Robotics & Automation</li>
+              <li>Robotics &amp; Automation</li>
               <li>Embedded Systems</li>
               <li>Internet of Things (IoT)</li>
               <li>Human-Robot Interaction</li>
             </ul>
           </div>
 
-          {/* Contact Information */}
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Contact Us</h3>
             <address className="not-italic">
@@ -97,14 +88,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Social media links */}
         <div className="flex justify-center space-x-6 py-6 border-t border-b border-gray-800 mb-6">
-          {/* <a href="https://twitter.com/isdlab" className="text-gray-400 hover:text-white transition">
-            <span className="sr-only">Twitter</span>
-            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-            </svg>
-          </a> */}
           <a href="https://github.com/Intelligent-Systems-Design-Lab-SRM" className="text-gray-400 hover:text-white transition">
             <span className="sr-only">GitHub</span>
             <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -125,19 +109,8 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* Copyright and credits section */}
         <div className="text-center text-sm text-gray-400">
-          <p>© {currentYear} ISD Lab, SRM Institute of Science and Technology, Kattankulathur. All rights reserved.</p>
-          <p className="mt-4 pt-3 border-t border-gray-800 text-s text-gray-500">
-             <a
-              href="https://harshilmalhotra.dev/?utm_source=isdlabsrm.in&utm_medium=referral&utm_campaign=credit_link"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-400 transition"
-            > 
-              Created with ❤️ by Harshil Malhotra
-        </a> 
-          </p>
+          <p>&copy; {currentYear} ISD Lab, SRM Institute of Science and Technology, Kattankulathur. All rights reserved.</p>
         </div>
       </div>
     </footer>
