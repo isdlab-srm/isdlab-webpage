@@ -126,11 +126,6 @@ export default function Contact() {
             Kattankulathur, Chennai - 603203
           </p>
           <p className="mt-4">
-            <strong>Contact Person:</strong> Dr. B Sowmiya<br />
-            <strong>Phone:</strong>{" "}
-            <a href="tel:+919003322060" className="underline hover:text-blue-400">
-              +91 90033 22060
-            </a><br/>
             <strong>Email:</strong>{" "}
             <a href="mailto:info@isdlabsrm.in" className="underline hover:text-blue-400">
               info@isdlabsrm.in
